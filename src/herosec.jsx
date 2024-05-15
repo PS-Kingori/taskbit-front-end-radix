@@ -24,7 +24,7 @@ const Herosec = () => {
           </div>
         </div>
         <div className="w-full sm:w-1/2 flex  ">
-         <img src="/hero.gif." alt="" />
+         <img src="/hero.gif." alt="image" />
         </div>
 
       </div>
