@@ -3,6 +3,7 @@ import { BeakerIcon } from '@heroicons/react/24/solid';
 import Herosec from './herosec';
 import './App.css'
 import Footer from './Footer';
+import Login from './Login';
 
 
 function App() {
@@ -17,7 +18,7 @@ function App() {
 
         <div className="text-xl font-bold">Taskbit</div>
         <div className="hidden md:flex space-x-4">
-            <a href="#" className="text-gray-800 hover:text-blue-300">Home</a>
+            <a href="/Login" className="text-gray-800 hover:text-blue-300">Home</a>
             <a href="#" className="text-gray-800 hover:text-blue-300">About</a>
             <a href="#" className="text-gray-800 hover:text-blue-300">Contact</a>
         </div>
@@ -26,6 +27,7 @@ function App() {
 
 <Herosec />
 <Footer />
+<Login />
         
     </>
   )

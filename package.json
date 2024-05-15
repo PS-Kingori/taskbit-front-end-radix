@@ -1,6 +1,7 @@
 {
   "name": "plus-ui-testing",
   "private": true,
+  "homepage": "https://PS-Kingori.github.io/taskbit-front-end-radix",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
