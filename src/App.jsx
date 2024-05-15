@@ -26,8 +26,9 @@ function App() {
 </nav>
 
 <Herosec />
-<Footer />
 <Login />
+<Footer />
+
         
     </>
   )
