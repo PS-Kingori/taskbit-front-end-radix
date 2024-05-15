@@ -24,7 +24,7 @@ const Herosec = () => {
           </div>
         </div>
         <div className="w-full sm:w-1/2 flex  ">
-         <img src="https://github.com/PS-Kingori/taskbit-front-end-radix/blob/main/dist/hero.gif" alt="" />
+         <img src="https://PS-Kingori.github.io/taskbit-front-end-radix/hero.gif." alt="" />
         </div>
 
       </div>
