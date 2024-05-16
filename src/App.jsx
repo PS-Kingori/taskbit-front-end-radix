@@ -1,4 +1,3 @@
-
 import { BeakerIcon } from '@heroicons/react/24/solid';
 import Herosec from './herosec';
 import './App.css'
@@ -19,11 +18,14 @@ function App() {
         <div className="text-xl font-bold">Taskbit</div>
         <div className="hidden md:flex space-x-4">
             <a href="/Login" className="text-gray-800 hover:text-blue-300">Home</a>
-            <a href="#" className="text-gray-800 hover:text-blue-300">About</a>
+            <a href="/Demo" className="text-gray-800 hover:text-blue-300">Demo</a>
+            {/* <Link to="/demo" className="text-gray-800 hover:text-blue-300">Demo</Link> */}
             <a href="#" className="text-gray-800 hover:text-blue-300">Contact</a>
         </div>
     </div>
 </nav>
+
+
 
 <Herosec />
 <Login />
