@@ -1,14 +1,11 @@
-import { BeakerIcon } from "@heroicons/react/24/solid";
-import Herosec from "./herosec";
-import "./App.css";
-import Footer from "./Footer";
-import Login from "./Login";
+import React from 'react'
+import { BeakerIcon } from '@heroicons/react/24/solid'
 
-function App() {
+
+const Signup = () => {
   return (
     <>
-      <div className="divide-y divide-solid">
-        <nav className="bg-gray-100 shadow-md text-grey-800 p-4 flex items-center">
+     <nav className="bg-gray-100 shadow-md text-grey-800 p-4 flex items-center">
           <BeakerIcon className="h-6 w-6  text-blue-500 ml-10" />{" "}
           {/* Adjust the size and color as needed */}
           <div className="container ps-1 mr-auto flex justify-between items-center">
@@ -27,13 +24,11 @@ function App() {
             </div>
           </div>
         </nav>
+    
+    <div>Signup</div>
 
-        <Herosec />
-        <Login />
-        <Footer />
-      </div>
     </>
-  );
+  )
 }
 
-export default App;
+export default Signup
